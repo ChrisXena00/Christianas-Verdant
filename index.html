@@ -10,6 +10,11 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" 
         rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
@@ -80,7 +85,9 @@
             <div class="image-wrapper">
                 <img src="Assets/Overhead view of wooden crates of fruit, vegetables, bread and mushrooms on a farm table.png" alt="an organic food plate" class="harvest-image"/>
                 <div class="badge-1">
-                    <span class="badge-1-icon"></span>
+                    <span class="badge-1-icon">
+                        <i class="ph ph-timer"></i>
+                    </span>
                     <div class="badge-1-content">
                         <h6>2h 14m</h6>
                         <p>avg. farm to door</p>
@@ -88,7 +95,9 @@
                 </div>
                 
                 <div class="badge-2">
-                     <span class="badge-2-icon"></span>
+                     <span class="badge-2-icon">
+                        <i class="ph ph-check"></i>
+                    </span>
                     <div class="badge-2-content">
                         <h6>100% organic</h6>
                         <p>certified · no pesticides</p>
@@ -114,7 +123,7 @@
         <div class="aisles-header">
             <div>
                 <p class="aisles-subheading">Aisles</p>
-                <h3="aisles-heading">Shop by craving</h3>
+                <h3 class="aisles-heading">Shop by craving</h3>
             </div>
             <a href="" class="view-aisles-link">View all aisles &RightArrow;</a>
         </div>
@@ -170,5 +179,122 @@
                 
         </div>
     </section>
+
+    <!-- How Verdant Works Section -->
+    <section class="how-it-works">
+        <div class="how-it-works-first-group">
+            <p class="how-it-works-subheading">How Verdant works</p>
+            <h3 class="how-it-works-heading">From soil to supper in three steps</h3>
+            <p class="how-it-works-paragraph">No warehouses, no week-old lettuce. We cut out the middle miles so flavor — and farmers — get more.</p>
+            <a href="" class="how-it-works-link">Start your first box</a>
+        </div>
+
+        <div class="how-it-works-second-group">
+            <div class="how-it-works-card">
+                <h3 class="how-it-works-card-number">01</h3>
+                <div class="how-it-works-card-content">
+                    <h5>You shop the harvest</h5>
+                    <p>Live inventory from farms within 100 miles. What you see was picked this morning.</p>
+                </div>
+            </div>
+
+            <div class="how-it-works-card">
+                <h3 class="how-it-works-card-number">02</h3>
+                <div class="how-it-works-card-content">
+                    <h5>We pack light & cold</h5>
+                    <p>Paper, compostable wrap and chilled totes. Zero plastic, zero wilting.</p>
+                </div>
+            </div>
+
+            <div class="how-it-works-card">
+                <h3 class="how-it-works-card-number">03</h3>
+                <div class="how-it-works-card-content">
+                    <h5>Doorstep in hours</h5>
+                    <p>E-bike couriers on 2-hour windows. Track from field to front step.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- This week's pick -->
+    <section class="week-pick">
+        <div class="week-pick-header">
+            <div>
+                <p class="week-pick-subheading">This week's picks</p>
+                <h3 class="week-pick-heading">Fresh off the truck</h3>
+            </div>
+           <div class="week-pick-filter">
+                <button class="filter active">All</button>
+                <button class="filter">Veggies</button>
+                <button class="filter">Bakery</button>
+                <button class="filter">Dairy</button>
+           </div>
+        </div>
+
+        <div class="week-pick-card-wrapper">
+            <div class="product-card">
+                <div class="product-card-image">
+                    <img src="Assets/Container.png" alt="Permission and tomatoes"/>
+                    <span class="product-card-image-badge">Peak Season</span>
+                </div>
+                <div class="product-card-content">
+                    <h4>Heirloom Tomatoes</h4>
+                    <p>Stone Hollow · 12mi</p>
+                    <div class="product-card-footer">
+                        <p>$4.20 /lb</p>
+                        <button class="cart-button"><i class="ph ph-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-card-image">
+                    <img src="Assets/Container (1).png" alt="Freshly baked loaves of bread"/>
+                    <span class="product-card-image-badge">Baked Today</span>
+                </div>
+                <div class="product-card-content">
+                    <h4>Sourdough Loaf</h4>
+                    <p>Juniper Bakery · baked 6am</p>
+                    <div class="product-card-footer">
+                        <p>$7.50 /lb</p>
+                        <button class="cart-button"><i class="ph ph-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-card-image">
+                    <img src="Assets/Container (2).png" alt="Freshly baked loaves of bread"/>
+                    <span class="product-card-image-badge">Pasture-raised</span>
+                </div>
+                <div class="product-card-content">
+                    <h4>Pasture Eggs, dozen</h4>
+                    <p>Clover Fold · 28mi</p>
+                    <div class="product-card-footer">
+                        <p>$6.90 /lb</p>
+                        <button class="cart-button"><i class="ph ph-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-card-image">
+                    <img src="Assets/Jar of wildflower honey with a dipper.png" alt="Freshly baked loaves of bread"/>
+                    <span class="product-card-image-badge">Small batch</span>
+                </div>
+                <div class="product-card-content">
+                    <h4>Wildflower Honey</h4>
+                    <p>Beelove · raw & unfiltered</p>
+                    <div class="product-card-footer">
+                        <p class="price">$11.00 /lb</p>
+                        <button class="cart-button"><i class="ph ph-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
 </body>
 </html>
